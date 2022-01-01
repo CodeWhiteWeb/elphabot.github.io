@@ -1,6 +1,11 @@
 body {
-  margin: 0;
-  padding: 0;
+margin: 0;
+font-family: Roboto, "Open Sans", Arial, sans-serif;
+font-size: 14px;
+font-weight: 300;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 .pimg{
   background-image: url("https://raw.githubusercontent.com/pranshu05/Elpha/main/img/a.png");
@@ -9,65 +14,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%);
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
   width: 100%;
-  
-}
-.section {
-  width: 100%;
-}
-.container {
-  position: relative;
-  width: 1170px;
-  margin: 0 auto;
-  color: #000;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: Roboto, "Open Sans", Arial, sans-serif;
-  overflow: hidden;
-}
-.call span {
-  display: inline;
-  border: 1px solid black;
-  padding: 8px 13px;
-  font-size: 20px;
-  transition: background 0.15s linear;
-}
-.call span:hover {
-  background: black;
-  cursor: pointer;
-}
-.section .container {
-  padding: 0px 0 50px 0;
-}
-.section .slider,
-.section .footer {
-  background: #fff;
-}
-.slidercontent {
-  text-align: center;
-}
-.hero {
-  font-family: "Roboto Slab", sans-serif;
-  color: black;
-  font-weight: normal;
-  letter-spacing: 1px;
-  padding-top: 10px;
-}
-h1.hero {
-  font-size: 54px;
-}
-h2.hero {
-  font-size: 30px;
-  margin-bottom: 60px;
-}
-h1.hero:after {
-  content: "";
-  width: 300px;
-  position: relative;
-  border-bottom: 1px solid #aaa;
-  text-align: center;
-  margin: auto;
 }
 a {
   font-weight: bold;
@@ -78,51 +26,77 @@ a {
 a:hover {
   color: white;
 }
-.col {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  border-radius: 10px;
+.section {
 }
-.col.three {
-  width: 300px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 10px;
+.button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
 }
-.col h1.side,
-.col p.side,
-.col span.side:first-of-type {
-  margin-left: 50px;
-  text-align: left;
-}
-.col:hover > .icon {
-  background: #F44336;
-  color: white;
-}
-.col p,
-.col h1 {
-  padding: 0 1%;
+.btn {
+  border: none;
+  display: block;
   text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #111;
+  padding: 10px 30px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  
+}
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.abc{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius:15px;
+    text-align: center;
+    float: left;
+}
+.abc img{
+  border-radius: 50%;
+  border: 5px solid white;
+  height: 300px;
+  width: 300px;
+}
+.abc span {
+  z-index: 1;
+  text-align: center;
+  padding-top: 20px;
+}
+.abc a{
   color: white;
 }
-.group.margin {
-  margin-bottom: 20px;
-}
-.col .imgholder {
-  height: 300px;
+.container{
   width: 100%;
-  background: lightblue;
-  transition: background 0.3s linear;
-  border-radius: 10px;
-}
-.col.bg {
-  background: #000;
-}
-.col.pointer {
-  cursor: pointer;
-}
-.col span.feature {
-  font-size: 20px;
 }
