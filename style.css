@@ -4,6 +4,7 @@ body{
 }
 .pimg img {
   clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
+  width : 100% ;
 }
 .pimg {
 img {
