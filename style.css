@@ -2,11 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.pimg img {
-  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
-  width: 100%;
-}
 .pimg{
   background-image: url("https://raw.githubusercontent.com/pranshu05/Elpha/main/img/a.png");
   min-height: 500px;
@@ -14,6 +9,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
+  width: 100%;
+  
 }
 .section {
   width: 100%;
