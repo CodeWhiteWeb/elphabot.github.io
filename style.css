@@ -79,15 +79,14 @@ a:hover {
   color: white;
 }
 .col {
-  float: left;
   padding: 0;
-  margin: 0;
+  margin: auto;
   position: relative;
   border-radius: 10px;
 }
 .col.three {
-  width: 31.3%;
-  margin: 0 1%;
+  width: 300px;
+  margin: auto;
   border-radius: 10px;
 }
 .col h1.side,
