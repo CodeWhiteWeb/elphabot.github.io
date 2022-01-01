@@ -5,26 +5,19 @@ body {
 
 .pimg img {
   clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
-}
-
-.pimg img {
   width: 100%;
 }
-
-.pimg {
-  position: relative;
-  opacity: 1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.pimg{
+  background-image: url("https://raw.githubusercontent.com/pranshu05/Elpha/main/img/a.png");
+  min-height: 500px;
   background-attachment: fixed;
-  min-height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .section {
   width: 100%;
 }
-
 .container {
   position: relative;
   width: 1170px;
@@ -35,7 +28,6 @@ body {
   font-family: Roboto, "Open Sans", Arial, sans-serif;
   overflow: hidden;
 }
-
 .call span {
   display: inline;
   border: 1px solid black;
@@ -43,25 +35,20 @@ body {
   font-size: 20px;
   transition: background 0.15s linear;
 }
-
 .call span:hover {
   background: black;
   cursor: pointer;
 }
-
 .section .container {
   padding: 0px 0 50px 0;
 }
-
 .section .slider,
 .section .footer {
   background: #fff;
 }
-
 .slidercontent {
   text-align: center;
 }
-
 .hero {
   font-family: "Roboto Slab", sans-serif;
   color: black;
@@ -69,16 +56,13 @@ body {
   letter-spacing: 1px;
   padding-top: 10px;
 }
-
 h1.hero {
   font-size: 54px;
 }
-
 h2.hero {
   font-size: 30px;
   margin-bottom: 60px;
 }
-
 h1.hero:after {
   content: "";
   width: 300px;
@@ -87,18 +71,15 @@ h1.hero:after {
   text-align: center;
   margin: auto;
 }
-
 a {
   font-weight: bold;
   display: inline block;
   color: black;
   text-decoration: none;
 }
-
 a:hover {
   color: white;
 }
-
 .col {
   float: left;
   padding: 0;
@@ -106,36 +87,30 @@ a:hover {
   position: relative;
   border-radius: 10px;
 }
-
 .col.three {
   width: 31.3%;
   margin: 0 1%;
   border-radius: 10px;
 }
-
 .col h1.side,
 .col p.side,
 .col span.side:first-of-type {
   margin-left: 50px;
   text-align: left;
 }
-
 .col:hover > .icon {
   background: #F44336;
   color: white;
 }
-
 .col p,
 .col h1 {
   padding: 0 1%;
   text-align: center;
   color: white;
 }
-
 .group.margin {
   margin-bottom: 20px;
 }
-
 .col .imgholder {
   height: 300px;
   width: 100%;
@@ -143,15 +118,12 @@ a:hover {
   transition: background 0.3s linear;
   border-radius: 10px;
 }
-
 .col.bg {
   background: #000;
 }
-
 .col.pointer {
   cursor: pointer;
 }
-
 .col span.feature {
   font-size: 20px;
 }
