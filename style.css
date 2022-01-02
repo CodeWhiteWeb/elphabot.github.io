@@ -123,7 +123,7 @@ a {
 .typewriter {
   font-family: monospace;
   line-height: 1.5;
-  font-size: 120%;
+  font-size: 12px;
 }
 
 .typewriter a {
