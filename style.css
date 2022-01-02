@@ -42,9 +42,9 @@ a {
   position: relative;
   color: #fff;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #111;
-  padding: 10px 30px;
+  padding: 20px 50px;
   margin: 0 auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
