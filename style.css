@@ -26,8 +26,8 @@ a {
 a:hover {
   color: white;
 }
-.section {
-}
+
+
 .button_container {
 	position: absolute;
   left: 0;
@@ -72,11 +72,11 @@ a:hover {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .abc{
-    margin-left: 20px;
+    margin-left: auto;
     margin-top: 50px;
     padding-bottom: 20px;
     padding-top: 20px;
-    width: 400px;
+    width: 31%;
     color: #ffffff;
     background-color: #000000;
     border-radius:15px;
@@ -99,4 +99,5 @@ a:hover {
 }
 .container{
   width: 100%;
+	
 }
