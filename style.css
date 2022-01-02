@@ -109,6 +109,7 @@ a {
 }
 
 .section {
+  margin-top: 100px;
   width: 100%;
   min-height: 210px;
   background-color: black;
