@@ -1,0 +1,102 @@
+body {
+margin: 0;
+font-family: Roboto, "Open Sans", Arial, sans-serif;
+font-size: 14px;
+font-weight: 300;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.pimg{
+  background-image: url("https://raw.githubusercontent.com/pranshu05/Elpha/main/img/a.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 65%);
+  width: 100%;
+}
+a {
+  font-weight: bold;
+  display: inline block;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.section {
+}
+.button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+}
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #111;
+  padding: 10px 30px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  
+}
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.abc{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius:15px;
+    text-align: center;
+    float: left;
+}
+.abc img{
+  border-radius: 50%;
+  border: 5px solid white;
+  height: 300px;
+  width: 300px;
+}
+.abc span {
+  z-index: 1;
+  text-align: center;
+  padding-top: 20px;
+}
+.abc a{
+  color: white;
+}
+.container{
+  width: 100%;
+}
