@@ -109,12 +109,12 @@ a {
 }
 
 .section {
-  margin-top: 100px;
+  margin-top: 130px;
   width: 100%;
   min-height: 250px;
   background-color: black;
   color: white;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 10px;
 }
 
