@@ -10,7 +10,8 @@ body {
 
 .pimg {
   background-image: url("https://raw.githubusercontent.com/pranshu05/Elpha/main/img/a.png");
-  min-height: 280px;
+  min-height: 500px;
+  width: 1700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
