@@ -22,6 +22,10 @@
 
 📜 [**Pranshu05**](https://github.com/pranshu05)
 
+# 🤝 Bug finder and Helper
+
+📜 [**Indie**](https://github.com/indiewastaken)
+
 # Github
 
 * Github: [@Elphabot](https://github.com/Elphabot)
